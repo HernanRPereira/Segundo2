@@ -1,148 +1,188 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
-
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>Informe Diario - Segundo Dos</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-</head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
 
-<body>
-
+  <body>
     <header>
-        <h1>Segundo Dos</h1>
-        <p>Informe de actividades realizadas en clase</p>
+      <h1>Segundo Dos</h1>
+      <p>Informe de actividades realizadas en clase</p>
     </header>
 
     <main>
+      <!-- Botón para ordenar -->
+      <div class="controls">
+        <button onclick="ordenarPorFecha()">Ordenar por fecha</button>
+      </div>
 
-        <!-- Botón para ordenar -->
-        <div class="controls">
-            <button onclick="ordenarPorFecha()">Ordenar por fecha</button>
-        </div>
+      <!-- Contenedor de informes -->
+      <div id="informes">
+        <section class="dia" data-fecha="2026-03-02">
+          <h2 class="fecha">02 de marzo de 2026</h2>
 
-        <!-- Contenedor de informes -->
-        <div id="informes">
+          <div class="area">
+            <h3>Matemáticas</h3>
+            <p>
+              <strong>Actividades:</strong> Identificar patrones numéricos,
+              números pares e impares.
+            </p>
+            <p>
+              Concepto de mitad de un número. De manera escrita y oral se
+              reforzó el concepto de número par e impar.
+            </p>
+            <p>
+              <strong>Para reforzaar:</strong> El concepto de mitad de un
+              número.
+            </p>
+          </div>
 
-            <section class="dia" data-fecha="2026-03-02">
+          <div class="area">
+            <h3>Español</h3>
+            <p>
+              <strong>Actividades:</strong> Acompañamiento de maestras de apoyo
+              y charla grupal.
+            </p>
+            <p>Se usó el espacio para recalcar valores de convivencia.</p>
+            <p><strong>Para reforzar:</strong> La escucha activa.</p>
+          </div>
+        </section>
 
-                <h2 class="fecha">02 de marzo de 2026</h2>
+        <section class="dia" data-fecha="2026-03-03">
+          <h2 class="fecha">03 de marzo de 2026</h2>
 
-                <div class="area">
-                    <h3>Matemáticas</h3>
-                    <p><strong>Actividades:</strong> Identificar patrones numéricos, números pares e impares.</p>
-                    <p>Concepto de mitad de un número. De manera escrita y oral se reforzó el concepto de número par e
-                        impar.</p>
-                    <p><strong>Para reforzaar:</strong> El concepto de mitad de un número.</p>
+          <div class="area">
+            <h3>Español</h3>
+            <p><strong>Actividades:</strong> Se repasó el Fonema /N/.</p>
+            <p>
+              Se profundizó el uso de la letra N en diferentes combinaciones.
+            </p>
+            <p>Se realizaron actividades de completado de palabras.</p>
+            <p>
+              <strong>Para reforzar:</strong> combinaciones y completar
+              palabras.
+            </p>
 
-                </div>
+            <div class="galeria">
+              <img src="img/030301.jpeg" alt="Actividad de Español" />
+              <img src="img/030302.jpeg" alt="Actividad de Español" />
+              <img src="img/030303.jpeg" alt="Actividad de Español" />
+            </div>
+          </div>
 
-                <div class="area">
-                    <h3>Español</h3>
-                    <p><strong>Actividades:</strong> Acompañamiento de maestras de apoyo y charla grupal.</p>
-                    <p>Se usó el espacio para recalcar valores de convivencia.</p>
-                    <p><strong>Para reforzar:</strong> La escucha activa.</p>
+          <div class="area">
+            <h3>Naturales</h3>
+            <p>
+              <strong>Actividades:</strong> Se profundizó el tema de los seres
+              vivos.
+            </p>
+            <p>
+              Se hizo la relación entre el proceso de crecimiento de las plantas
+              y que los lápices provienen de la madera de los arboles.
+            </p>
+            <p>
+              <strong>Para reforzar:</strong> Recalcar la importancia de cuidar
+              el medio ambiente.
+            </p>
+          </div>
+        </section>
 
-                </div>
+        <!-- 04 de marzo de 2026 -->
+        <section class="dia" data-fecha="2026-03-04">
+          <h2 class="fecha">04 de marzo de 2026</h2>
 
-            </section>
+          <div class="area">
+            <h3>Matemáticas</h3>
+            <p>
+              <strong>Actividades:</strong> Se introdujo el concepto de números
+              cardinales.
+            </p>
+            <p>Se realizaron ejercicios sobre todo lo visto hasta ahora.</p>
+            <p></p>
+            <p>
+              <strong>Para reforzar:</strong> Reforzar las centenas, evitar
+              confundir números como EJ: "Escribir 1012 en lugar de de 112" o
+              "Escribir 1008 en lugar de 108".
+            </p>
+            <p>Se recomienda el uso del ábaco para estos casos.</p>
+            <div class="galeria">
+              <img src="img/mat1.jpeg" alt="Actividad de Español" />
+              <img src="img/Mat2.jpeg" alt="Actividad de Español" />
+              <img src="img/Mat3.jpeg" alt="Actividad de Español" />
+            </div>
+          </div>
 
-            <section class="dia" data-fecha="2026-03-03">
+          <div class="area">
+            <h3>Sociales</h3>
+            <p>
+              <strong>Actividades:</strong> Reforzando el concepto de identidad.
+            </p>
+            <p>
+              Se habló del registro civil de nacimiento. (Nombre, Fecha de
+              Nacimiento, Lugar de Nacimiento)
+            </p>
+            <p>
+              <strong>Para reforzar:</strong> Hacer la relación entre fecha de
+              cumpleaños y fecha de nacimiento.
+            </p>
+          </div>
+        </section>
 
-                <h2 class="fecha">03 de marzo de 2026</h2>
+        <section class="dia" data-fecha="2026-03-05">
+          <h2 class="fecha">05 de marzo de 2026</h2>
 
-                <div class="area">
-                    <h3>Español</h3>
-                    <p><strong>Actividades:</strong> Se repasó el Fonema /N/.</p>
-                    <p>Se profundizó el uso de la letra N en diferentes combinaciones.</p>
-                    <p>Se realizaron actividades de completado de palabras.</p>
-                    <p><strong>Para reforzar:</strong> combinaciones y completar palabras.</p>
+          <div class="area">
+            <h3>Inglés</h3>
+            <p>
+              <strong>Actividades:</strong> Se reforzó el vocabulario de los
+              colores en inglés
+            </p>
+            <p>Se unificaron las actividades de Inglés con artistica.</p>
+            <p>
+              Se introdujo brevemente el vocabulario de las figuras geométricas.
+            </p>
+            <p>
+              <strong>Para reforzar:</strong> Repetir el vocabulario de los
+              colores en inglés.
+            </p>
+            <p></p>
+            <div class="galeria">
+              <img src="img/5-m.jpeg" alt="Actividad de Inglés" />
+            </div>
+          </div>
 
-                    <div class="galeria">
-                        <img src="img/030301.jpeg" alt="Actividad de Español">
-                        <img src="img/030302.jpeg" alt="Actividad de Español">
-                        <img src="img/030303.jpeg" alt="Actividad de Español">
-                    </div>
-                </div>
-
-                <div class="area">
-                    <h3>Naturales</h3>
-                    <p><strong>Actividades:</strong> Se profundizó el tema de los seres vivos.</p>
-                    <p>Se hizo la relación entre el proceso de crecimiento de las plantas y que los lápices provienen de
-                        la madera de los arboles.</p>
-                    <p><strong>Para reforzar:</strong> Recalcar la importancia de cuidar el medio ambiente.</p>
-
-                </div>
-
-            </section>
-
-            <!-- 04 de marzo de 2026 -->
-            <section class="dia" data-fecha="2026-03-04">
-
-                <h2 class="fecha">04 de marzo de 2026</h2>
-
-                <div class="area">
-                    <h3>Matemáticas</h3>
-                    <p><strong>Actividades:</strong> Se introdujo el concepto de números cardinales.</p>
-                    <p>Se realizaron ejercicios sobre todo lo visto hasta ahora.</p>
-                    <p></p>
-                    <p><strong>Para reforzar:</strong> Reforzar las centenas, evitar confundir números como EJ: "Escribir 1012 en lugar de de 112" o "Escribir 1008 en lugar de 108".</p>
-                    <p>Se recomienda el uso del ábaco para estos casos.</p>
-                    <div class="galeria">
-                        <img src="img/mat1.jpeg" alt="Actividad de Español">
-                        <img src="img/Mat2.jpeg" alt="Actividad de Español">
-                        <img src="img/Mat3.jpeg" alt="Actividad de Español">
-                    </div>
-                </div>
-
-                <div class="area">
-                    <h3>Sociales</h3>
-                    <p><strong>Actividades:</strong> Reforzando el concepto de identidad.</p>
-                    <p>Se habló del registro civil de nacimiento. (Nombre, Fecha de Nacimiento, Lugar de Nacimiento)</p>
-                    <p><strong>Para reforzar:</strong> Hacer la relación entre fecha de cumpleaños y fecha de nacimiento.</p>
-
-                </div>
-
-            </section>
-
-            <section class="dia" data-fecha="2026-03-05">
-
-                <h2 class="fecha">05 de marzo de 2026</h2>
-
-                <div class="area">
-                    <h3>Inglés</h3>
-                    <p><strong>Actividades:</strong> Se reforzó el vocabulario de los colores en inglés</p>
-                    <p>Se unificaron las actividades de Inglés con artistica.</p>
-                    <p>Se introdujo brevemente el vocabulario de las figuras geométricas.</p>
-                    <p><strong>Para reforzar:</strong> Repetir el vocabulario de los colores en inglés.</p>
-                    <p></p>
-                    <div class="galeria">
-                        <img src="img/5-m.jpeg" alt="Actividad de Inglés">
-                    </div>
-                </div>
-
-                <div class="area">
-                    <h3>Ética y valores</h3>
-                    <p><strong>Actividades:</strong> Reforzando los valores de respeto y honestidad.</p>
-                    <p>Se realizaron actividades para fomentar el respeto y la honestidad.</p>
-                    <p><strong>Para reforzar:</strong> Inculcar estos valores en la vida diaria.</p>
-                    <div class="galeria">
-                        <img src="img/Honestidad.jpeg" alt="Actividad de etica y valores">
-                    </div>
-                </div>
-
-            </section>
-
-        </div>
-
+          <div class="area">
+            <h3>Ética y valores</h3>
+            <p>
+              <strong>Actividades:</strong> Reforzando los valores de respeto y
+              honestidad.
+            </p>
+            <p>
+              Se realizaron actividades para fomentar el respeto y la
+              honestidad.
+            </p>
+            <p>
+              <strong>Para reforzar:</strong> Inculcar estos valores en la vida
+              diaria.
+            </p>
+            <div class="galeria">
+              <img
+                src="img/Honestidad.jpeg"
+                alt="Actividad de etica y valores"
+              />
+            </div>
+          </div>
+        </section>
+      </div>
     </main>
 
     <footer>
-        <p>Institución Educativa Manuel Jose Cayzedo- Año 2026</p>
+      <p>Institución Educativa Manuel Jose Cayzedo- Año 2026</p>
     </footer>
 
     <script src="script.js"></script>
-</body>
-
+  </body>
 </html>
